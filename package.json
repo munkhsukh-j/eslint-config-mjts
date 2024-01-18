@@ -1,13 +1,13 @@
 {
-  "name": "eslint-config-mjts",
+  "name": "@munkhsukhj/eslint-config-mjts",
   "version": "1.0.0",
-  "description": "",
+  "description": "Eslint plugin for testing purposes",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": ["eslint", "eslintconfig", "ts-eslint", "ts eslint", "mjeslint", "mjtseslint", "mjts"],
+  "author": "Munkhsukh Jigjid",
   "license": "ISC",
   "dependencies": {
     "@typescript-eslint/eslint-plugin": "^6.18.1",
