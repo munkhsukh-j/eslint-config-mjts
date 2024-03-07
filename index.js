@@ -15,6 +15,7 @@ module.exports = {
   ],
   rules: {
     "react/react-in-jsx-scope": 0,
+
     'no-console': 1,
     '@typescript-eslint/no-var-requires': 0,
     'no-shadow': 'off',

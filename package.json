@@ -4,6 +4,7 @@
   "description": "Eslint plugin for testing purposes",
   "main": "index.js",
   "scripts": {
+    "npm-patch": "npm version patch",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": ["eslint", "eslintconfig", "ts-eslint", "ts eslint", "mjeslint", "mjtseslint", "mjts"],
