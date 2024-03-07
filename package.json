@@ -4,8 +4,8 @@
   "description": "Eslint plugin for testing purposes",
   "main": "index.js",
   "scripts": {
-    "publish": "npm publish",
-    "prepublish": "npm version patch",
+    "publish-yo": "npm publish",
+    "prepublish-yo": "npm version patch",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
