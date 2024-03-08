@@ -1,6 +1,6 @@
 {
   "name": "@munkhsukhj/eslint-config-mjts",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "Eslint plugin for testing purposes",
   "main": "index.js",
   "scripts": {
