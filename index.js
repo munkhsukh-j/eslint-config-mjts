@@ -63,7 +63,7 @@ module.exports = {
         singleQuote: true,
         trailingComma: 'all',
         arrowParens: 'always',
-        printWidth: 160,
+        printWidth: 140,
         tabWidth: 2,
         useTabs: false,
         tailwindFunctions: ['classnames', 'cn', 'classNames'],
