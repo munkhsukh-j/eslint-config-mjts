@@ -19,11 +19,11 @@ module.exports = {
     // do not need import React
     'react/react-in-jsx-scope': 0,
     // do not leave console
-    'no-console': 1,
+    'no-console': [2, { allow: ['warn', 'error'] }],
     // no require import
     '@typescript-eslint/no-var-requires': 0,
     'no-shadow': 'off',
-    '@typescript-eslint/no-shadow': ['error'],
+    '@typescript-eslint/no-shadow': ['error', { ignoreTypeValueShadow: true }],
     // define const after it used
     '@typescript-eslint/no-use-before-define': 0,
     'no-use-before-define': 'off',
@@ -70,6 +70,12 @@ module.exports = {
         plugins: ['prettier-plugin-tailwindcss'],
       },
     ],
+
+    // `prefer ${template}`
+    'prefer-template': 2,
+    // attribute={"hi"} remove curly bracket
+    'arrow-body-style': [2, 'as-needed'],
+    '@typescript-eslint/no-unused-expressions': 2,
   },
   env: {
     browser: true,
@@ -82,3 +88,12 @@ module.exports = {
     },
   },
 };
+// overrides:
+//     - parser: "@graphql-eslint/eslint-plugin"
+// files:
+//     - "*.graphql"
+//     - "*.gql"
+// plugins:
+//     - "@graphql-eslint"
+// rules:
+//     "@graphql-eslint/known-type-names": 2
